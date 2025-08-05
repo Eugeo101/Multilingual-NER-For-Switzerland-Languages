@@ -70,7 +70,7 @@ Three fine-tuning approaches were explored:
 | **it**              | 0.6923              | 0.8192                    | 0.8575                |
 | **en**              | 0.5890              | 0.7068                    | 0.7870                |
 
-> Evaluation Metric: **F1 Score**
+> Evaluation Metric: **Test F1 Score**
 
 ---
 
