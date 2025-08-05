@@ -10,10 +10,10 @@ The study compares different fine-tuning strategies to evaluate cross-lingual ge
 
 Switzerland has four national languages with different representation proportions:
 
-- **German (de):** 62.9%
-- **French (fr):** 22.9%
-- **Italian (it):** 8.4%
-- **English (en):** 5.9%
+- **German (de):** 62.9% of spoken language 
+- **French (fr):** 22.9% of spoken language
+- **Italian (it):** 8.4% of spoken language
+- **English (en):** 5.9% of spoken language
 
 The goal is to build an efficient and generalizable multilingual NER system — particularly beneficial for low-resource languages like **Italian** and **English** (in the Swiss context).
 
@@ -70,7 +70,7 @@ Three fine-tuning approaches were explored:
 | **it**              | 0.6923              | 0.8192                    | 0.8575                |
 | **en**              | 0.5890              | 0.7068                    | 0.7870                |
 
-> Evaluation Metric: **F1 Score** (higher is better)
+> Evaluation Metric: **F1 Score**
 
 ---
 
@@ -102,6 +102,15 @@ Conducted deep analysis across all three methods:
   - Manual **label correction** in training data.
   - Expand support to other multilingual NER datasets (e.g., WikiAnn).
   - Investigate **adapter layers** or **language-specific heads** for better language control.
+
+---
+
+🚀 **Final Model (Multilingual Fine-tuning)**:  
+Achieved test F1-scores:  
+- German (de): **0.8682**  
+- French (fr): **0.8647**  
+- Italian (it): **0.8575**  
+- English (en): **0.7870**
 
 ---
 
