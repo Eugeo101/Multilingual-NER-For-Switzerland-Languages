@@ -105,7 +105,7 @@ Conducted deep analysis across all three methods:
 
 ---
 
-🚀 **Final Model (Multilingual Fine-tuning)**:  
+## 🚀 **Final Model (Multilingual Fine-tuning)**:  
 Achieved test F1-scores:  
 - German (de): **0.8682**  
 - French (fr): **0.8647**  
